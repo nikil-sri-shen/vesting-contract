@@ -5,6 +5,31 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.ape]
+path = 'contracts/ape.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.ethereum]
+path = 'contracts/ethereum.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.magic-beans]
+path = 'contracts/magic-beans.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.sip009]
+path = 'contracts/sip009.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.sip010]
+path = 'contracts/sip010.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.vesting]
 path = 'contracts/vesting.clar'
 clarity_version = 2
