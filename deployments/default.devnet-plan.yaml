@@ -1,0 +1,53 @@
+---
+id: 0
+name: Devnet deployment
+network: devnet
+stacks-node: "http://localhost:20443"
+bitcoin-node: "http://devnet:devnet@localhost:18443"
+plan:
+  batches:
+    - id: 0
+      transactions:
+        - contract-publish:
+            contract-name: sip009
+            expected-sender: ST5HZS81ZJ6CYPSD8Y2M6MZVAY73X979VJ8R7TMJ
+            cost: 4740
+            path: contracts/sip009.clar
+            anchor-block-only: true
+            clarity-version: 2
+        - contract-publish:
+            contract-name: ape
+            expected-sender: ST5HZS81ZJ6CYPSD8Y2M6MZVAY73X979VJ8R7TMJ
+            cost: 7370
+            path: contracts/ape.clar
+            anchor-block-only: true
+            clarity-version: 2
+        - contract-publish:
+            contract-name: sip010
+            expected-sender: ST5HZS81ZJ6CYPSD8Y2M6MZVAY73X979VJ8R7TMJ
+            cost: 8450
+            path: contracts/sip010.clar
+            anchor-block-only: true
+            clarity-version: 2
+        - contract-publish:
+            contract-name: ethereum
+            expected-sender: ST5HZS81ZJ6CYPSD8Y2M6MZVAY73X979VJ8R7TMJ
+            cost: 11480
+            path: contracts/ethereum.clar
+            anchor-block-only: true
+            clarity-version: 2
+        - contract-publish:
+            contract-name: magic-beans
+            expected-sender: ST5HZS81ZJ6CYPSD8Y2M6MZVAY73X979VJ8R7TMJ
+            cost: 11680
+            path: contracts/magic-beans.clar
+            anchor-block-only: true
+            clarity-version: 2
+        - contract-publish:
+            contract-name: vesting
+            expected-sender: ST5HZS81ZJ6CYPSD8Y2M6MZVAY73X979VJ8R7TMJ
+            cost: 121930
+            path: contracts/vesting.clar
+            anchor-block-only: true
+            clarity-version: 2
+      epoch: "2.5"

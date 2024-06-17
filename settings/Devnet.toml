@@ -3,15 +3,21 @@ name = "devnet"
 deployment_fee_rate = 10
 
 [accounts.deployer]
-mnemonic = "twice kind fence tip hidden tilt action fragile skin nothing glory cousin green tomorrow spring wrist shed math olympic multiply hip blue scout claw"
+mnemonic = "toddler clinic dragon tiny panther margin six prison shock kitchen goddess journey modify ordinary curtain admit fly order blast shell fossil symptom fee expire"
 balance = 100_000_000_000_000
+# stx_address = ST5HZS81ZJ6CYPSD8Y2M6MZVAY73X979VJ8R7TMJ
+# mnemonic = "stone van final trigger latin human method bonus nation upset glass jewel tribe aisle cost smoke lab regret tackle craft afford grant silk keen"
+# balance = 100_000_000_000_000
 # secret_key: 753b7cc01a1a2e86221266a154af739463fce51219d97e4f856cd7200c3bd2a601
 # stx_address: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
 # btc_address: mqVnk6NPRdhntvfm4hh9vvjiRkFDUuSYsH
 
 [accounts.wallet_1]
-mnemonic = "sell invite acquire kitten bamboo drastic jelly vivid peace spawn twice guilt pave pen trash pretty park cube fragile unaware remain midnight betray rebuild"
+mnemonic = "toddler clinic dragon tiny panther margin six prison shock kitchen goddess journey modify ordinary curtain admit fly order blast shell fossil symptom fee expire"
 balance = 100_000_000_000_000
+# stx_address = ST20FN777X155HK2ED8GY45G7M9GGPN76TAEJ9JH6
+# mnemonic = "sell invite acquire kitten bamboo drastic jelly vivid peace spawn twice guilt pave pen trash pretty park cube fragile unaware remain midnight betray rebuild"
+# balance = 100_000_000_000_000
 # secret_key: 7287ba251d44a4d3fd9276c88ce34c5c52a038955511cccaf77e61068649c17801
 # stx_address: ST1SJ3DTE5DN7X54YDH5D64R3BCB6A2AG2ZQ8YPD5
 # btc_address: mr1iPkD9N3RJZZxXRk7xF9d36gffa6exNC

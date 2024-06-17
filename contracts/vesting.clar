@@ -96,8 +96,10 @@
             (data (unwrap! (map-get? locked-fts id) ERR_DATA_NOT_FOUND))
             (maker (get maker data))
         )
+        ;; (asserts! (is-eq maker tx-sender) ERR_DATA_NOT_FOUND)
+        ;; (ok data)
         (if (is-eq maker tx-sender) 
-            (ok (merge output data))
+            (ok  (merge output data))
             (ok  wrong)
         )
     )
@@ -171,7 +173,8 @@
     (let
         (
             (new-id (+ (var-get last-ft-id) u1))
-            (expiry-days (+ block-height (* expiry u144)))
+            ;; (expiry-days (+ block-height (* expiry u144)))
+            (expiry-days (+ expiry block-height))
             (maker tx-sender)
         )
         (asserts! (> amount u0) ERR_NO_AMOUNT_VALUE)
@@ -202,7 +205,8 @@
     (let
         (
             (new-id (+ (var-get last-nft-id) u1))
-            (expiry-days (+ block-height (* expiry u144)))
+            ;; (expiry-days (+ block-height (* expiry u144)))
+            (expiry-days (+ expiry block-height))
             (maker tx-sender)
         )
         (asserts! (is-some (unwrap! (contract-call? nft-token get-owner nft-id) ERR_DATA_NOT_FOUND)) ERR_DATA_NOT_FOUND)

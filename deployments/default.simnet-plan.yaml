@@ -5,13 +5,13 @@ network: simnet
 genesis:
   wallets:
     - name: deployer
-      address: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+      address: ST5HZS81ZJ6CYPSD8Y2M6MZVAY73X979VJ8R7TMJ
       balance: "100000000000000"
     - name: faucet
       address: STNHKEPYEPJ8ET55ZZ0M5A34J0R3N5FM2CMMMAZ6
       balance: "100000000000000"
     - name: wallet_1
-      address: ST1SJ3DTE5DN7X54YDH5D64R3BCB6A2AG2ZQ8YPD5
+      address: ST5HZS81ZJ6CYPSD8Y2M6MZVAY73X979VJ8R7TMJ
       balance: "100000000000000"
     - name: wallet_2
       address: ST2CY5V39NHDPWSXMW9QDT3HC3GD6Q6XX4CFRK9AG
@@ -51,32 +51,32 @@ plan:
       transactions:
         - emulated-contract-publish:
             contract-name: sip009
-            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            emulated-sender: ST5HZS81ZJ6CYPSD8Y2M6MZVAY73X979VJ8R7TMJ
             path: contracts/sip009.clar
             clarity-version: 2
         - emulated-contract-publish:
             contract-name: ape
-            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            emulated-sender: ST5HZS81ZJ6CYPSD8Y2M6MZVAY73X979VJ8R7TMJ
             path: contracts/ape.clar
             clarity-version: 2
         - emulated-contract-publish:
             contract-name: sip010
-            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            emulated-sender: ST5HZS81ZJ6CYPSD8Y2M6MZVAY73X979VJ8R7TMJ
             path: contracts/sip010.clar
             clarity-version: 2
         - emulated-contract-publish:
             contract-name: ethereum
-            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            emulated-sender: ST5HZS81ZJ6CYPSD8Y2M6MZVAY73X979VJ8R7TMJ
             path: contracts/ethereum.clar
             clarity-version: 2
         - emulated-contract-publish:
             contract-name: magic-beans
-            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            emulated-sender: ST5HZS81ZJ6CYPSD8Y2M6MZVAY73X979VJ8R7TMJ
             path: contracts/magic-beans.clar
             clarity-version: 2
         - emulated-contract-publish:
             contract-name: vesting
-            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            emulated-sender: ST5HZS81ZJ6CYPSD8Y2M6MZVAY73X979VJ8R7TMJ
             path: contracts/vesting.clar
             clarity-version: 2
       epoch: "2.5"
